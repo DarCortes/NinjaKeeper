@@ -1,25 +1,34 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+import {Route, Switch} from 'react-router-dom'
+
+import './styles/App.scss';
+import MainHeader from './components/MainHeader/MainHeader';
+import Home from './components/Home/Home';
+import PaymentMethods from './components/PaymentMethods/PaymentMethods';
+import Stations from './components/Stations/Stations/Stations';
+import Help from './components/Help/Help';
+import StationDetail from './components/Stations/StationDetail/StationDetail';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <MainHeader/>
+      <main>
+
+        <Switch>
+          
+          <Route path="/pagos" exact component={PaymentMethods}/>
+          <Route path="/estaciones" exact component={Stations}/>
+          <Route path="/estaciones/:id" exact component={StationDetail}/>
+          <Route path="/ayuda" exact component={Help}/>
+          <Route path="/" exact component={Home}/>
+        </Switch>
+
+      </main>
+      
     </div>
+    
   );
 }
 

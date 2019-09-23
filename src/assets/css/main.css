@@ -1,0 +1,134 @@
+body {
+  background-color: #252525;
+}
+
+nav {
+  font-family: "Lucida Grande", Tahoma, Sans-Serif;
+  color: #F1F0CF;
+  padding: 20px;
+  background-color: #AF0404;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+flex-item {
+  font-family: "Lucida Grande", Tahoma, Sans-Serif;
+  background: #AF0404;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: #F1F0CF;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+}
+
+flex-container {
+  font-family: "Lucida Grande", Tahoma, Sans-Serif;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+footer {
+  height: 25px;
+  background-color: #C4C4C4;
+  margin: 0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  padding: 20px;
+  background-color: #252525;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav h1 {
+  color: #F1F0CF;
+  display: inline-block;
+}
+
+.img-citybg {
+  background-image: url("../IMG/ciudadvista1.jpeg");
+}
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+  background: #414141;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: #F1F0CF;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+  border-radius: 27px;
+}
+
+body {
+  font-family: "Lucida Grande", Tahoma, Sans-Serif;
+  margin: 0;
+  color: #F1F0CF;
+  height: 80px;
+  text-align: left;
+  background-color: #AF0404;
+}
+
+.img-CiudadGris {
+  width: 100%;
+  height: 1400px;
+}
+.img-CiudadGris img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+footer {
+  height: 25px;
+  background-color: #252525;
+  margin: 0px;
+  text-align: center;
+}
+
+nav div a {
+  color: #F1F0CF;
+}
+
+.Imagen-tarjeta {
+  width: 100%;
+  height: 200px;
+}
+.Imagen-tarjeta img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media all and (max-width: 500px) {
+  .navigation {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
