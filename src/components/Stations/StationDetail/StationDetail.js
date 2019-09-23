@@ -1,14 +1,19 @@
 import React from "react";
-
+import fakeStations from '../../../FakeStations'
+import "./StationDetail.scss"
 const StationDetail = (props) => {
   const stationId = props.match.params.id
-
+  const station = fakeStations[stationId]
   return (
   
-    <article>
+    <article className="Station-detail">
       <h1>
-        StationDetail {stationId}
+        {station.title}
       </h1>
+      <p>
+        {station.address}
+      </p>
+
     </article>
     
   )

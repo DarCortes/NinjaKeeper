@@ -1,24 +1,8 @@
 import React from "react";
 import StationPreview from "../StationPreview/StationPreview";
 import "./StationList.scss";
+import fakeStations from '../../../FakeStations'
 
-const fakeStations = [{
-        id: 0,
-        title: "Roma"
-    },
-    {
-        id: 1,
-        title: "Coyoacán"
-    },
-    {
-        id: 2,
-        title: "Buenavista"
-    },
-    {
-        id: 4,
-        title: "Universidad"
-    },
-]
 
 const StationList = () => {
     const renderStations = fakeStations.map(eachStation => ( <
