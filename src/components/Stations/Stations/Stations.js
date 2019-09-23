@@ -1,13 +1,16 @@
 import React from 'react'
 import StationList from '../StationList/StationList'
+import './Stations.scss';
 
 const Stations = () => (
-  <div>
-    <h1>
+  <div className="imagen-ciudad">
+    <h2 >
       Estaciones 24/7
-    </h1>
-
-    <StationList/>
+    </h2>
+<div className="flex-container">
+  <StationList/>
+  </div>
+    
     
   </div>
 )

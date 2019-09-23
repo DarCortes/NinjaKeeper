@@ -1,9 +1,10 @@
 import React from "react";
 import StationPreview from "../StationPreview/StationPreview";
+import "./StationList.scss";
 
 const fakeStations = [{
         id: 0,
-        title: "Centro"
+        title: "Insurgentes"
     },
     {
         id: 1,
@@ -29,13 +30,11 @@ const StationList = () => {
 
     return (
 
-        <
-        ul className = "StationList" >
+        <ul className = "StationList" >
 
         { renderStations }
 
-        <
-        /ul>
+        </ul>
     )
 }
 

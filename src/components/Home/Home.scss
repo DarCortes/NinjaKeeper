@@ -1,7 +1,20 @@
+.flex-direction {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-container {
+    flex: 1;
+    padding: 4rem;
+}
+
 .flex-descripcion {
     background: #F1F0CF;
-    border-radius: 24px;
+    border-radius: 20px;
     font-family: 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
-    padding-top: 2rem;
-    padding-bottom: 1rem;
+    padding: 2rem;
+}
+
+.gato-ninja {
+    border-radius: 20px;
 }
