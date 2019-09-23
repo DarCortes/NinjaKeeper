@@ -1,6 +1,6 @@
 .StationList {
-    padding: 0;
-    margin: 0;
+    padding: 2rem;
+    margin: 2rem;
     list-style: none;
     display: flex;
     -webkit-flex-flow: row wrap;
@@ -9,15 +9,13 @@
 
 .StationPreview {
     background: #414141;
-    color: #F1F0CF;
     font-family: 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
-    padding: 5px;
+    padding: 0px;
     width: 200px;
-    height: 150px;
-    margin-top: 10px;
+    height: 120px;
+    margin-top: 0px;
     line-height: 150px;
-    font-weight: bold;
     font-size: 1em;
     text-align: center;
-    border-radius: 27px;
+    border-radius: 20px;
 }

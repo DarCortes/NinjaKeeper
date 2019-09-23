@@ -4,7 +4,7 @@ import "./StationList.scss";
 
 const fakeStations = [{
         id: 0,
-        title: "Insurgentes"
+        title: "Roma"
     },
     {
         id: 1,
@@ -16,7 +16,7 @@ const fakeStations = [{
     },
     {
         id: 4,
-        title: "Cuatro Caminos"
+        title: "Universidad"
     },
 ]
 
